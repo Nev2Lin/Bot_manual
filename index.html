@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>pdf 뷰어 테스트</title>
+        <style>
+            .manual {
+            width: 1000%;
+            height: 1000%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="manual"></div>
+        <script src="./pdfobject.js"></script>
+        <script>PDFObject.embed("./manual.pdf", "#manual");</script>
+    </body>
+</html>
